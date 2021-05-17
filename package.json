@@ -1,0 +1,31 @@
+{
+  "name": "babel-watch-error-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-watch --watch . --extensions .ts,.graphql main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puchm/babel-watch-error-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puchm/babel-watch-error-demo/issues"
+  },
+  "homepage": "https://github.com/puchm/babel-watch-error-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-plugin-import-graphql": "^2.8.1",
+    "babel-watch": "^7.4.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "graphql": "^15.5.0"
+  }
+}
